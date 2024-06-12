@@ -1,6 +1,5 @@
 'use client'
 import React, { FormEvent, Suspense, useContext, useRef } from 'react'
-import { Form } from '../form'
 import style from './page.module.scss'
 import { Context } from '../context'
 
@@ -17,7 +16,7 @@ export default function Steps({ params }: { params: { slug: string }} ) {
 
 	const ref = {
 		form: useRef(),
-		input: useRef<HTMLInputElement>(null)
+		input: useRef<HTMLInputElement>()
 	}
 
 	const handle = {
