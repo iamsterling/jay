@@ -1,6 +1,10 @@
 :root {
 
 
+    --blue: blue;
+    --text: white;
+    --dark: #000000;
+
     display: flex;
     height: 100%;
 
@@ -12,6 +16,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 2rem;
 
 
         flex: 1;
