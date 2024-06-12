@@ -16,7 +16,7 @@ export default function Steps({ params }: { params: { slug: string }} ) {
 
 	const ref = {
 		form: useRef(),
-		input: useRef<HTMLInputElement>()
+		input: useRef<HTMLInputElement>(null)
 	}
 
 	const handle = {
