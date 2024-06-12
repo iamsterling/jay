@@ -32,20 +32,20 @@ export const Provider = ({ children }: { children: ReactNode }) => {
             id: "A",
             state: { get: a, set: setA },
             
-            directions: <p>Input the <strong>total</strong> number you found from your worksheet here and hit <strong><a>submit</a></strong> to move forward:</p>,
+            directions: `${<p>Input the <strong>total</strong> number you found from your worksheet here and hit <strong><a>submit</a></strong> to move forward:</p>}`,
             placeholder: ""
             
         },
         {
             id: "B",
             state: { get: b, set: setB },
-            directions: <p>Now, input the <strong>second number</strong> you found from the worksheet you completed on <strong><u>this</u></strong> page:</p>,
+            directions: `${<p>Now, input the <strong>second number</strong> you found from the worksheet you completed on <strong><u>this</u></strong> page:</p>}`,
             placeholder: ""
         },
         {
             id: "C",
             state: { get: c, set: setC },
-            directions: <p>Congrats, you've found this muhc money through this challenge! Now... what can you do with that money?</p>,
+            directions: `${<p>Congrats, you've found this much money through this challenge! Now... what can you do with that money?</p>}`,
             placeholder: <p>Total number of <span style={{ color: "blue" }}>Variable A</span> + <span style={{ color: "red" }}>Variable B</span> added together</p>
         },
     ]
