@@ -10,6 +10,7 @@ export default function RootLayout({
 
 
 	return <>
+		<Indicator />
         { children }
     </>
 }
