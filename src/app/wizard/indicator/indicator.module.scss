@@ -1,0 +1,22 @@
+.track {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    .indicator {
+        all: unset;
+
+        background: blue;
+        border-radius: 200rem;
+        height: 1rem;
+        width: 1rem;
+
+        transition: 1s ease-in-out;
+    
+        &[disabled] {
+            background: #00000015;
+            transform: scale(0.8);
+        }
+    }
+}
